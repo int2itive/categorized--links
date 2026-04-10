@@ -60,6 +60,7 @@
   .section {
     display: grid;
 /*     grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     place-items: center;
     padding-block: var(--space-fluid-md);
     background-color: var(--surface-1);
